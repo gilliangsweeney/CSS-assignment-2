@@ -16,7 +16,6 @@ body {
 h2{
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 header {
   background: #333;
@@ -46,27 +45,20 @@ nav ul li {
 }
   article {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
   section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
     max-width: 600px;
 }
   img {
       max-width: 100%; /* DO NOT delete or change this line */
 }
 .text {
-    background: #fff;
-    padding: 2rem;
-    color: #000;
-    align-self: center;
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 2rem 2rem 2rem 2rem;
 }
 .photo {
-    align-self: center;
-    margin: 2rem 0rem 0rem 0rem;
+    margin: 2rem 2rem 2rem 2rem;
 }
 #cougar {
   background: #B26219;
